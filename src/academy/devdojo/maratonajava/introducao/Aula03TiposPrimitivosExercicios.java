@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.introducao.src.academy.devdojo.maratonajava.introducao;
 /*
 Crie variáveis para os campos descritos entre <> e imprima a seguinte mensagem:
 Eu <nome> , morando no endereço <endereço>,
