@@ -5,6 +5,10 @@ import academy.devdojo.maratonajava.introducao.src.academy.devdojo.maratonajava.
 public class CarroTeste01 {
     public static void main(String[] args) {
         Carro carro = new Carro();
+
         System.out.println(carro.VELOCIDADE_LIMITE);
+        System.out.println(carro.COMPRADOR);
+        carro.COMPRADOR.setNome("Bruno");
+        System.out.println(carro.COMPRADOR);
     }
 }
