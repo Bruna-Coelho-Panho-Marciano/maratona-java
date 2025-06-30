@@ -15,5 +15,13 @@ public class ProdutoTeste01 {
         CalculadoraImposto.calcularImposto(tomate);
         System.out.println("----------------------------");
         CalculadoraImposto.calcularImposto(televisao);
+
+        Tomate tomate01 = new Tomate("Cereja", 8.00);
+        System.out.println(tomate01.getNome() + " " + tomate01.getValor());
+
+        tomate01.setNome("Tomate Andreia");
+        tomate01.setValor(4);
+        System.out.println("===================");
+        System.out.println(tomate01.getNome() + " R$" + tomate01.getValor());
     }
 }

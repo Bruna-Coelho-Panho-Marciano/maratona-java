@@ -2,6 +2,7 @@ package academy.devdojo.maratonajava.introducao.src.academy.devdojo.maratonajava
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class PeriodTeste01 {
     public static void main(String[] args) {
@@ -18,5 +19,8 @@ public class PeriodTeste01 {
         System.out.println(p3);
         System.out.println(p4);
         System.out.println(p5);
+        System.out.println(p3.getMonths());
+        System.out.println(Period.between(now, now.plusDays(p3.getDays())).getMonths());
+        System.out.println(now.until(now.plusDays(p3.getDays()), ChronoUnit.DAYS));
     }
 }

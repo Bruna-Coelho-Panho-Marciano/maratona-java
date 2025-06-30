@@ -13,3 +13,6 @@ public class ProfessorTeste01 {
 
     }
 }
+//Crie uma classe carro com os seguintes atributos
+//Nome Modelo Ano
+//Em seguida,crie dois objetos e imprima seus valores

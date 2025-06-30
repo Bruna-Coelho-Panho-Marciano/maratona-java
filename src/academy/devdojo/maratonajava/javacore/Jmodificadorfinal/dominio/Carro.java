@@ -2,10 +2,11 @@ package academy.devdojo.maratonajava.introducao.src.academy.devdojo.maratonajava
 
 public class Carro {
     private String nome;
-    public final double VELOCIDADE_LIMITE;
+    public final double VELOCIDADE_LIMITE = 250;
+    public final Comprador COMPRADOR = new Comprador();
 
-    public Carro() {
-       VELOCIDADE_LIMITE = 250;
+    public final void imprime() {
+        System.out.println(this.nome);
     }
 
     public String getNome() {return nome;}

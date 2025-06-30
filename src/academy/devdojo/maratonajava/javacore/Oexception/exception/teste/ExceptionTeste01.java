@@ -9,7 +9,7 @@ public class ExceptionTeste01 {
     }
 
     private static void criarNovoArquivo() {
-        File file = new File("arquivo\\teste3.txt");
+        File file = new File("arquivo\\teste.txt");
         try{
             boolean isCriado = file.createNewFile();
             System.out.println("Arquivo criado "+isCriado);
