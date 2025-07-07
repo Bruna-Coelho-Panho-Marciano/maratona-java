@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao.src.academy.devdojo.maratonajava
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class PathTeste03 {
+public class ResolveTeste03 {
     public static void main(String[] args) {
         Path dir = Paths.get("home/bruna");
         Path arquivo = Paths.get("dev/arquivo.txt");
